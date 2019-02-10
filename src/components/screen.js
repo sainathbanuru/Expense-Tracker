@@ -4,7 +4,7 @@ import { BACKGROUND_COLOR } from "../constants/colors";
 
 const ScreenView = styled.View`
   flex: 1;
-  padding: 16px;
+  padding: 0 16px;
   background-color: ${BACKGROUND_COLOR};
 `;
 

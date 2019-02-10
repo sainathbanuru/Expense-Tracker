@@ -37,16 +37,16 @@ const MainTabNavigator = createBottomTabNavigator(
           <MaterialIcons name={"show-chart"} size={24} color={tintColor} />
         )
       }
-    },
-
-    [PROFILE.ROUTE]: {
-      screen: Profile,
-      navigationOptions: {
-        tabBarIcon: ({ tintColor }) => (
-          <FontAwesome name={"user-o"} size={24} color={tintColor} />
-        )
-      }
     }
+
+    // [PROFILE.ROUTE]: {
+    //   screen: Profile,
+    //   navigationOptions: {
+    //     tabBarIcon: ({ tintColor }) => (
+    //       <FontAwesome name={"user-o"} size={24} color={tintColor} />
+    //     )
+    //   }
+    // }
   },
   {
     tabBarOptions: {
